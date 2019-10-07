@@ -10,7 +10,7 @@ function setup() {
 	function brainReady() {
 		console.log('Chatbot ready!');
 		bot.sortReplies();
-		let num = floor(random(10)) + 1;
+		let num = floor(random(100)) + 1;
 		console.log(num);
 		let reply = bot.reply('local-user', 'set ' + num);
 	}
@@ -22,7 +22,7 @@ function setup() {
 
 function setNum()
 {
-	let num = floor(random(10)) + 1;
+	let num = floor(random(100)) + 1;
 	console.log(num);
 	let reply = bot.reply('local-user', 'set ' + num);
 }
@@ -85,7 +85,7 @@ function botReply(msg)
 			setNum()
 		}, 1000);
 		setTimeout(() =>{
-			let msg = "Done! Guess another number between 1 and 10"
+			let msg = "Done! Guess another number between 1 and 100"
 			let div = createDiv('<img src="https://assets.editor.p5js.org/5c2b8971da5723001f824cee/606a8fcb-f698-4d61-b923-2629edc984d6.png" alt="Avatar" style="width:100%;"><p>' + msg + '</p><span class="time-right">' + getTime() + '</span>').addClass("container");
 			div.parent("txtScreen");
 			let objDiv = document.getElementById("txtScreen");
