@@ -32,8 +32,6 @@ function getMinutes()
     let min = new Date().getMinutes()
     if(min < 10)
         return "0"+min
-    else if (floor(min/10) == min/10)
-        return min+"0"
     return min
 }
 
