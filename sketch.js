@@ -91,7 +91,7 @@ function botReply(msg)
 			let objDiv = document.getElementById("txtScreen");
 		objDiv.scrollTop = objDiv.scrollHeight;
 			setNum()
-		}, 1000);
+		}, 2000);
 	}	
 });
 	
