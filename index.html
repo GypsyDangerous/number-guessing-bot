@@ -1,0 +1,51 @@
+<!DOCTYPE html><html><head>
+	<script src="p5.js"></script>
+	<script src="p5.dom.min.js"></script>
+	<script src="p5.sound.min.js"></script>
+	<script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+
+</head>
+
+<body>
+
+	<h1>Number Guessing ChatBot</h1>
+		<div class="screen shadow" id="txtScreen">
+
+			<div class="container">
+				<img src="bot.png" alt="Avatar" style="width:100%;">
+				<p>Guess a number between 1 and 10</p>
+				<span class="time-right" id="first"></span>
+			</div>
+
+			<!-- <div class="container darker">
+				<img src="user.png" alt="Avatar" class="right" style="width:100%;">
+				<p class="right-txt">Hey! I'm fine. Thanks for asking!</p>
+				<span class="time-left">11:01</span>
+			</div>
+
+			<div class="container">
+				<img src="bot.png" alt="Avatar" style="width:100%;">
+				<p>Sweet! So, what do you wanna do today?</p>
+				<span class="time-right">11:02</span>
+			</div>
+
+			<div class="container darker">
+				<img src="user.png" alt="Avatar" class="right" style="width:100%;">
+				<p class="right-txt">Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
+				<span class="time-left">11:05</span>
+			</div> -->
+		</div>
+		<div class="container darker input-box">
+			<input type="text" id="msg" placeholder="Type message here...">
+			<button id="submit" onclick="send()">Send</button>
+		</div>
+	<script src="sketch.js"></script>
+
+
+</body></html>
