@@ -5,6 +5,15 @@ html, body {
 	height: 100%;
 /*   border: solid; */
 }
+
+body{
+	display: grid;
+}
+
+.main-container{
+	justify-self: center;	
+}
+
 canvas {
 	display: block;
 }
