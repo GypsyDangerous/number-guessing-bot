@@ -48,6 +48,7 @@ canvas {
 	height: 80%;
 	overflow: auto;
 	padding: 10px;
+	max-height: 80vh;
 /*   border: solid; */
 	border-radius: 20px;
 	min-width: 526px;
