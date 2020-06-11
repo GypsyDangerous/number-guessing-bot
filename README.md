@@ -1,1 +1,1 @@
-# number-guessing-bot
+# number guessing bot
